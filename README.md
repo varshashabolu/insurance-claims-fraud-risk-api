@@ -15,7 +15,7 @@ A Flask-based data analysis and REST API project that helps detect fraud and ass
 
 
 ## 🗂️ Project Structure
-
+<pre>```
 insurance-claims-fraud-risk-api/
 │
 ├── app.py  # Main Flask app
@@ -38,8 +38,7 @@ insurance-claims-fraud-risk-api/
 └── templates/
 └── index.html  # Frontend dashboard
 
-
----
+```</pre>
 
 ### ⚙️ Setup Instructions
   ## Steps
