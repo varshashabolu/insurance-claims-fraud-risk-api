@@ -48,14 +48,14 @@ insurance-claims-fraud-risk-api/
        source venv/bin/activate        # fro Mac
 
      # Install dependencies
-     pip install -r requirements.txt
+     pip3 install -r requirements.txt
      
 ## Prerequisites
 - Python 3.8+  
 - Virtual environment (recommended)
 
 ## Running the Application
-python app.py
+python3 app.py
 
 ## Usage
 - Open your browser and navigate to the dashboard:
