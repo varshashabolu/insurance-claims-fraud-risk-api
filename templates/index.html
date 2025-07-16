@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Insurance Claims Fraud Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .graph-container {
+      margin-bottom: 30px;
+      padding: 15px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 6px #ccc;
+    }
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 10px auto 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Insurance Claims Fraud Dashboard</h1>
+
+  <div class="graph-container">
+    <h2>Fraud vs Non-Fraud Claims</h2>
+    <img src="/plots/fraud_vs_nonfraud.png" alt="Fraud vs Non-Fraud Claims" />
+  </div>
+
+  <div class="graph-container">
+    <h2>Average Claim by Region and Policy Type</h2>
+    <img src="/plots/avg_claim_by_region_policy.png" alt="Average Claim by Region and Policy Type" />
+  </div>
+
+  <div class="graph-container">
+    <h2>Fraud vs Non-Fraud by Age Group</h2>
+    <img src="/plots/fraud_by_age_group.png" alt="Fraud vs Non-Fraud by Age Group" />
+  </div>
+
+  <div class="graph-container">
+    <h2>Claim Amount Distribution: Fraud vs Non-Fraud</h2>
+    <img src="/plots/claim_amount_fraud_boxplot.png" alt="Claim Amount Distribution" />
+  </div>
+</body>
+</html>

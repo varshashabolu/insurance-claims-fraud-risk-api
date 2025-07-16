@@ -1,0 +1,8 @@
+Customer_ID,Gender,Age,Region,Policy_Type,Claim_Amount,Is_Fraud
+1001,Male,42,East,Full Coverage,4000,No
+1002,Female,35,West,Liability,2200,No
+1003,Male,28,North,Collision,1800,Yes
+1004,Female,50,South,Full Coverage,5000,No
+1005,Male,30,East,Liability,1500,Yes
+1006,Female,26,North,Collision,1200,No
+1007,Male,40,South,Full Coverage,3000,No
