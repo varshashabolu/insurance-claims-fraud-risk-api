@@ -80,6 +80,19 @@ http://127.0.0.1:5000/plots/claim_amount_fraud_boxplot.png
 - Pandas (data manipulation)
 - Matplotlib & Seaborn (data visualization)
 
+# Screenshots
+### Fraud vs Non-Fraud Claims  
+![Fraud vs Non-Fraud](static/plots/fraud_vs_nonfraud.png)
+
+### Average Claim by Region and Policy  
+![Avg Claim by Region](static/plots/avg_claim_by_region_policy.png)
+
+### Fraud by Age Group  
+![Fraud by Age Group](static/plots/fraud_by_age_group.png)
+
+### Claim Amount Boxplot  
+![Claim Amount Boxplot](static/plots/claim_amount_fraud_boxplot.png)
+
 
 Varsha Shabolu
 Github profile: https://github.com/varshashabolu
